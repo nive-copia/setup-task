@@ -1,15 +1,11 @@
-name: workflow
-on:
-  - push
+name: ci
+
+on: [push]
+
 jobs:
   test:
-    name: Build and run task
     runs-on: ubuntu-latest
     steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-
-    - name: Install task
-      uses: ./.
-
-    - run: task --version
+      - uses: actions/checkout@v2
+      - uses: ./.
+      - run: task --version
