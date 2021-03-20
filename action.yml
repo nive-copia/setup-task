@@ -1,9 +1,9 @@
 name: 'Setup go-task/task'
 description: 'Setup a go-task/task environment and add it to the PATH'
-author: 'Eirik Tenold'
+author: 'Luke Shay'
 branding:
   icon: 'clipboard'
   color: 'blue'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'index.js'
