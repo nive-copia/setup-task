@@ -1,5 +1,5 @@
-name: 'Setup go-task/task'
-description: 'Setup a go-task/task environment and add it to the PATH'
+name: 'Setup go-task'
+description: 'Setup a go-task environment and add it to the PATH'
 author: 'Luke Shay'
 branding:
   icon: 'clipboard'
