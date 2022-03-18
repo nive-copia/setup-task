@@ -8,5 +8,5 @@ Example usage:
 
 ```yaml
 - name: Setup go-task/task
-  use: 'lukeshay/setup-task@v1'
+  uses: 'lukeshay/setup-task@v1'
 ```
