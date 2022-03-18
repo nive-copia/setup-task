@@ -1,0 +1,4 @@
+{
+  "extends": "get-off-my-lawn",
+  "ignorePatterns": "bundle.js"
+}

@@ -1,11 +1,11 @@
-import { nodeResolve } from "@rollup/plugin-node-resolve";
-import commonJS from "@rollup/plugin-commonjs";
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+import commonJS from '@rollup/plugin-commonjs';
 
 export default {
-  input: "index.js",
+  input: 'index.js',
   output: {
-    file: "bundle.js",
-    format: "cjs",
+    file: 'bundle.js',
+    format: 'cjs',
   },
-  plugins: [nodeResolve(), commonJS({ include: "node_modules/**" })],
+  plugins: [nodeResolve(), commonJS({ include: 'node_modules/**' })],
 };
